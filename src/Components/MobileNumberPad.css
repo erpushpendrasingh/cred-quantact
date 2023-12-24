@@ -1,0 +1,43 @@
+.mobile-number-pad {
+  background-color: black;
+  max-width: 350px;
+  height: 28vh;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.input-field {
+  width: 400px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.number-pad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.number-pad-key {
+  background-color: #121212;
+  color: white;
+  flex: 1;
+  padding: 7px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+.delete-key {
+  background-color: rgb(252, 201, 133);
+  color: #000;
+  font-weight: bold;
+}
+.enter-key {
+  background-color: rgb(221, 167, 159);
+  color: #000;
+  font-weight: bold;
+}
